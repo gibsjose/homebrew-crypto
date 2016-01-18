@@ -1,9 +1,9 @@
 class Zxcv < Formula
   desc "Show password strength statistics using the zxcvbn library"
   homepage "https://github.com/gibsjose/zxcv"
-  url "https://github.com/gibsjose/zxcv/archive/1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "2be328433e559bc25c207348d1ca9a08d422e4a63c1d484c81c72fd1698ce551"
+  url "https://github.com/gibsjose/zxcv/archive/2.0.0.tar.gz"
+  version "2.0.0"
+  sha256 "cb3c6cf0cea89885f314726aa00b746e409dcc15bdccaa00b5bada7798172186"
 
   def install
       bin.install "zxcv"
